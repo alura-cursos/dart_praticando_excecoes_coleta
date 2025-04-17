@@ -9,8 +9,9 @@ void main() {
 
   List<CollectionPoint> listaParaProcessar = [];
 
-  for (Map<String, dynamic> mapa in listaDadosIntegros) {
-    listaParaProcessar.add(CollectionPoint.fromMap(mapa));
+  for (Map<String, dynamic> mapa in listaDadosCorrompidos) {
+    CollectionPoint collectionPoint = CollectionPoint.fromMap(mapa);
+    listaParaProcessar.add(collectionPoint);
   }
 
   processarPontosDeColeta(listaParaProcessar);

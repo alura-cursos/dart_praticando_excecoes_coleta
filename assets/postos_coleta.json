@@ -1,0 +1,793 @@
+{
+  "pontos_coleta": [
+    {
+      "id": 1,
+      "nome": "Ponto de Coleta Porto",
+      "localizacao": {
+        "latitude": 45.248169,
+        "longitude": -61.056384
+      },
+      "endereco": "Rua de Jesus, 10, Ribeiro De Abreu, 61771-159 Campos / BA",
+      "materiais_aceitos": [
+        "eletrônicos",
+        "roupas"
+      ],
+      "horario_funcionamento": "Seg-Sáb 9h às 20h",
+      "nivel_preenchimento": -0.31
+    },
+    {
+      "id": 2,
+      "nome": "Ponto de Coleta Vieira Alegre",
+      "localizacao": {
+        "latitude": 12.248244,
+        "longitude": 140.722309
+      },
+      "endereco": "Trevo de Pinto, 2, Barro Preto, 67365766 Lopes / PA",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sex 9h às 19h",
+      "nivel_preenchimento": 0.41
+    },
+    {
+      "id": 3,
+      "nome": "Ponto de Coleta Fernandes da Praia",
+      "localizacao": {
+        "latitude": -49.0263015,
+        "longitude": 74.620634
+      },
+      "endereco": "Chácara Pinto, Cachoeirinha, 28098-851 Moraes das Pedras / SC",
+      "materiais_aceitos": [
+        "eletrônicos",
+        "vidro",
+        "óleo de cozinha",
+        "orgânicos"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 20h",
+      "nivel_preenchimento": 0.44
+    },
+    {
+      "id": "ID_4",
+      "nome": "Ponto de Coleta Gomes",
+      "localizacao": {
+        "latitude": 71.171357,
+        "longitude": -12.255274
+      },
+      "endereco": "Rodovia de da Rosa, Conjunto Califórnia Ii, 31585-149 Pereira / PI",
+      "materiais_aceitos": [
+        "metal",
+        "plástico",
+        "eletrônicos",
+        "orgânicos",
+        "pilhas"
+      ],
+      "horario_funcionamento": "Seg-Sáb 7h às 18h",
+      "nivel_preenchimento": 0.67
+    },
+    {
+      "id": "ID_5",
+      "nome": "Ponto de Coleta Fogaça",
+      "localizacao": {
+        "latitude": -82.227939,
+        "longitude": -83.139858
+      },
+      "endereco": "Loteamento Samuel Almeida, 72, Betânia, 01836675 Moura / MA",
+      "materiais_aceitos": [
+        "metal",
+        "papel",
+        "roupas"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 17h",
+      "nivel_preenchimento": 0.46
+    },
+    {
+      "id": 6,
+      "nome": "Ponto de Coleta Cardoso do Norte",
+      "localizacao": {
+        "latitude": -48.236837,
+        "longitude": -95.491206
+      },
+      "endereco": "Ladeira Pires, 87, Nova Esperança, 38156-149 Souza de Lima / AL",
+      "materiais_aceitos": [
+        "óleo de cozinha",
+        "orgânicos",
+        "baterias"
+      ],
+      "horario_funcionamento": "Seg-Sex 7h às 17h",
+      "nivel_preenchimento": -0.15
+    },
+    {
+      "id": 7,
+      "nome": "Ponto de Coleta Novaes",
+      "localizacao": {
+        "latitude": 70.880069,
+        "longitude": -150.589159
+      },
+      "endereco": "Favela Sofia Cunha, 64, Capitão Eduardo, 76226838 Cardoso das Flores / SC",
+      "materiais_aceitos": [
+        "vidro",
+        "metal",
+        "orgânicos",
+        "papel",
+        "eletrônicos"
+      ],
+      "horario_funcionamento": "Seg-Sex 7h às 20h",
+      "nivel_preenchimento": 0.13
+    },
+    {
+      "id": 8,
+      "nome": "Ponto de Coleta Pinto",
+      "localizacao": {
+        "latitude": -84.9691065,
+        "longitude": 66.828682
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "orgânicos",
+        "roupas",
+        "óleo de cozinha",
+        "baterias"
+      ],
+      "horario_funcionamento": "Seg-Sáb 7h às 20h",
+      "nivel_preenchimento": 0.45
+    },
+    {
+      "id": "ID_9",
+      "nome": "Ponto de Coleta Souza de Minas",
+      "localizacao": {
+        "latitude": 16.2378125,
+        "longitude": -13.422615
+      },
+      "endereco": "Esplanada Davi Lucas Silva, 9, Santana Do Cafezal, 55231243 da Costa / SP",
+      "materiais_aceitos": [
+        "roupas",
+        "orgânicos",
+        "vidro",
+        "metal"
+      ],
+      "horario_funcionamento": "Seg-Sáb 7h às 19h",
+      "nivel_preenchimento": 0.23
+    },
+    {
+      "id": 10,
+      "nome": "",
+      "localizacao": {
+        "latitude": 78.563715,
+        "longitude": 85.277059
+      },
+      "endereco": "Trecho de Porto, 695, Conjunto Bonsucesso, 17744-905 Lima / PB",
+      "materiais_aceitos": [
+        "roupas",
+        "plástico",
+        "metal",
+        "baterias"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 18h",
+      "nivel_preenchimento": 0.71
+    },
+    {
+      "id": 11,
+      "nome": "Ponto de Coleta Azevedo de Caldeira",
+      "localizacao": {
+        "latitude": 8.982245,
+        "longitude": -25.876691
+      },
+      "endereco": "Vale Santos, 97, Vila Tirol, 79359782 Porto / AM",
+      "materiais_aceitos": [
+        "óleo de cozinha",
+        "pilhas",
+        "orgânicos",
+        "vidro",
+        "papel"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 20h",
+      "nivel_preenchimento": 0.9
+    },
+    {
+      "id": 12,
+      "nome": "Ponto de Coleta Cardoso do Galho",
+      "localizacao": {
+        "latitude": 83.44342,
+        "longitude": -87.358139
+      },
+      "endereco": "Praia de Pires, 389, Marieta 2ª Seção, 46659-051 Castro da Prata / RO",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 7h às 19h",
+      "nivel_preenchimento": 0.3
+    },
+    {
+      "id": 13,
+      "nome": "Ponto de Coleta Gomes Paulista",
+      "localizacao": {
+        "latitude": 86.245078,
+        "longitude": 143.572534
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "roupas",
+        "baterias",
+        "vidro",
+        "orgânicos",
+        "plástico"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 20h",
+      "nivel_preenchimento": 0.03
+    },
+    {
+      "id": 14,
+      "nome": "",
+      "localizacao": {
+        "latitude": 1.7330775,
+        "longitude": 81.064713
+      },
+      "endereco": "Distrito Cardoso, 91, Vila São Gabriel, 59296222 Pires / AL",
+      "materiais_aceitos": [
+        "metal",
+        "orgânicos",
+        "baterias",
+        "eletrônicos",
+        "óleo de cozinha"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 17h",
+      "nivel_preenchimento": 0.08
+    },
+    {
+      "id": 15,
+      "nome": "Ponto de Coleta Moreira de Goiás",
+      "localizacao": {
+        "latitude": 29.2386825,
+        "longitude": 147.81092
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "orgânicos",
+        "metal",
+        "papel"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 19h",
+      "nivel_preenchimento": 0.21
+    },
+    {
+      "id": 16,
+      "nome": "",
+      "localizacao": {
+        "latitude": -75.9930915,
+        "longitude": 164.230372
+      },
+      "endereco": "Sítio Emanuel Silveira, 5, Bom Jesus, 47826137 Araújo das Pedras / AL",
+      "materiais_aceitos": [
+        "óleo de cozinha",
+        "eletrônicos",
+        "baterias",
+        "metal"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 17h",
+      "nivel_preenchimento": 0.75
+    },
+    {
+      "id": 17,
+      "nome": "Ponto de Coleta Santos da Praia",
+      "localizacao": {
+        "latitude": -26.708806,
+        "longitude": 27.321354
+      },
+      "endereco": "Alameda Lopes, 6, Vila Tirol, 20472779 Cardoso / AC",
+      "materiais_aceitos": [
+        "vidro",
+        "plástico",
+        "papel",
+        "óleo de cozinha"
+      ],
+      "horario_funcionamento": "Seg-Sex 7h às 18h",
+      "nivel_preenchimento": 0.84
+    },
+    {
+      "id": 18,
+      "nome": "Ponto de Coleta da Rosa Grande",
+      "localizacao": {
+        "latitude": 57.318516,
+        "longitude": 146.890014
+      },
+      "endereco": "Feira Otávio Costa, Bairro Das Indústrias Ii, 69711798 Silva / RJ",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sex 9h às 18h",
+      "nivel_preenchimento": 0.47
+    },
+    {
+      "id": 19,
+      "nome": "",
+      "localizacao": {
+        "latitude": -11.8122715,
+        "longitude": 50.445876
+      },
+      "endereco": "Feira Isabella Peixoto, 91, Mariano De Abreu, 88888067 Nogueira / MS",
+      "materiais_aceitos": [
+        "metal",
+        "plástico",
+        "baterias",
+        "orgânicos"
+      ],
+      "horario_funcionamento": "Seg-Sex 9h às 17h",
+      "nivel_preenchimento": 0.93
+    },
+    {
+      "id": 20,
+      "nome": "Ponto de Coleta Aragão da Praia",
+      "localizacao": {
+        "latitude": -71.86462,
+        "longitude": 5.114431
+      },
+      "endereco": "Vereda de Cavalcanti, 152, Maria Goretti, 27722-170 da Paz do Norte / SE",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sex 7h às 19h",
+      "nivel_preenchimento": 0.85
+    },
+    {
+      "id": 21,
+      "nome": "Ponto de Coleta Barbosa",
+      "localizacao": {
+        "latitude": -5.2828935,
+        "longitude": -13.529278
+      },
+      "endereco": "Recanto de Fernandes, 4, Jardim Atlântico, 05415-667 Mendes da Serra / PR",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 9h às 20h",
+      "nivel_preenchimento": 0.66
+    },
+    {
+      "id": 22,
+      "nome": "Ponto de Coleta Moura de Silveira",
+      "localizacao": {
+        "latitude": -18.4027095,
+        "longitude": -135.648285
+      },
+      "endereco": "Trevo João Guilherme Viana, Jardim Guanabara, 11544-796 Pires / MS",
+      "materiais_aceitos": [
+        "papel",
+        "óleo de cozinha",
+        "orgânicos",
+        "baterias"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 20h",
+      "nivel_preenchimento": 0.71
+    },
+    {
+      "id": 23,
+      "nome": "Ponto de Coleta Barbosa de Moraes",
+      "localizacao": {
+        "latitude": 75.047937,
+        "longitude": 53.506904
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "roupas",
+        "eletrônicos",
+        "orgânicos"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 19h",
+      "nivel_preenchimento": 0.32
+    },
+    {
+      "id": "ID_24",
+      "nome": "Ponto de Coleta Moura de Moura",
+      "localizacao": {
+        "latitude": 29.1690445,
+        "longitude": -138.72245
+      },
+      "endereco": "Passarela Pedro Lucas Freitas, 11, Vila Paraíso, 78681447 Gomes / RR",
+      "materiais_aceitos": [
+        "eletrônicos",
+        "orgânicos"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 20h",
+      "nivel_preenchimento": 0.34
+    },
+    {
+      "id": 25,
+      "nome": "Ponto de Coleta da Paz de Costa",
+      "localizacao": {
+        "latitude": -53.565681,
+        "longitude": -140.243613
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "metal",
+        "orgânicos",
+        "vidro",
+        "baterias"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 19h",
+      "nivel_preenchimento": 0.88
+    },
+    {
+      "id": 26,
+      "nome": "Ponto de Coleta Araújo de Moreira",
+      "localizacao": {
+        "latitude": 58.7189975,
+        "longitude": 127.239093
+      },
+      "endereco": "Conjunto de Carvalho, 5, Nazare, 86691-251 Rezende de Silveira / MS",
+      "materiais_aceitos": [
+        "roupas",
+        "papel",
+        "vidro",
+        "baterias"
+      ],
+      "horario_funcionamento": "Seg-Sex 9h às 20h",
+      "nivel_preenchimento": -0.25
+    },
+    {
+      "id": 27,
+      "nome": "Ponto de Coleta Vieira",
+      "localizacao": {
+        "latitude": 81.743374,
+        "longitude": 135.5652
+      },
+      "endereco": "Praça Santos, 2, São Cristóvão, 42253584 Fernandes / DF",
+      "materiais_aceitos": [
+        "orgânicos",
+        "baterias",
+        "papel",
+        "roupas",
+        "metal"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 18h",
+      "nivel_preenchimento": -0.42
+    },
+    {
+      "id": 28,
+      "nome": "Ponto de Coleta Costela da Mata",
+      "localizacao": {
+        "latitude": 74.9343355,
+        "longitude": 106.408837
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "óleo de cozinha",
+        "roupas",
+        "pilhas",
+        "metal"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 19h",
+      "nivel_preenchimento": 0.25
+    },
+    {
+      "id": 29,
+      "nome": "Ponto de Coleta Jesus do Amparo",
+      "localizacao": {
+        "latitude": -24.266088,
+        "longitude": 38.019264
+      },
+      "endereco": "Vila Caldeira, 77, Salgado Filho, 35925-556 Moura / PE",
+      "materiais_aceitos": [
+        "pilhas",
+        "plástico",
+        "metal"
+      ],
+      "horario_funcionamento": "Seg-Sex 7h às 20h",
+      "nivel_preenchimento": 0.28
+    },
+    {
+      "id": 30,
+      "nome": "Ponto de Coleta Lopes",
+      "localizacao": {
+        "latitude": -25.1089865,
+        "longitude": 70.435553
+      },
+      "endereco": "Feira Gustavo Henrique Castro, 5, Miramar, 32595-327 Sales de Lima / PR",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 7h às 19h",
+      "nivel_preenchimento": 0.01
+    },
+    {
+      "id": 31,
+      "nome": "Ponto de Coleta Carvalho",
+      "localizacao": {
+        "latitude": 15.5601455,
+        "longitude": 91.358429
+      },
+      "endereco": "Trecho Moraes, 1, Jaraguá, 97480-162 Moreira das Flores / MS",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 9h às 18h",
+      "nivel_preenchimento": 0.64
+    },
+    {
+      "id": 32,
+      "nome": "Ponto de Coleta Nunes",
+      "localizacao": {
+        "latitude": -76.267463,
+        "longitude": 126.167625
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "papel",
+        "eletrônicos"
+      ],
+      "horario_funcionamento": "Seg-Sáb 8h às 20h",
+      "nivel_preenchimento": 0.34
+    },
+    {
+      "id": 33,
+      "nome": "Ponto de Coleta Santos do Norte",
+      "localizacao": {
+        "latitude": -77.838973,
+        "longitude": -159.108224
+      },
+      "endereco": "Recanto Elisa Ramos, 99, Colégio Batista, 95269-495 Jesus de Ribeiro / TO",
+      "materiais_aceitos": [
+        "orgânicos",
+        "plástico",
+        "roupas",
+        "vidro"
+      ],
+      "horario_funcionamento": "Seg-Sáb 7h às 17h",
+      "nivel_preenchimento": 0.15
+    },
+    {
+      "id": 34,
+      "nome": "Ponto de Coleta Moura",
+      "localizacao": {
+        "latitude": -1.0835495,
+        "longitude": -121.156485
+      },
+      "endereco": "Vila Lorena Araújo, 474, Vila Nova Gameleira 3ª Seção, 97289623 Correia / DF",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 9h às 18h",
+      "nivel_preenchimento": 0.78
+    },
+    {
+      "id": 35,
+      "nome": "Ponto de Coleta Pires",
+      "localizacao": {
+        "latitude": -5.793816,
+        "longitude": 44.83096
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "orgânicos",
+        "eletrônicos",
+        "óleo de cozinha",
+        "metal",
+        "roupas"
+      ],
+      "horario_funcionamento": "Seg-Sex 9h às 17h",
+      "nivel_preenchimento": 0.95
+    },
+    {
+      "id": "ID_36",
+      "nome": "Ponto de Coleta Viana da Praia",
+      "localizacao": {
+        "latitude": 82.6869715,
+        "longitude": -38.071636
+      },
+      "endereco": "Ladeira Jesus, 54, Vila Minaslandia, 75758441 Novaes da Praia / SP",
+      "materiais_aceitos": [
+        "eletrônicos",
+        "plástico",
+        "metal"
+      ],
+      "horario_funcionamento": "Seg-Sex 7h às 17h",
+      "nivel_preenchimento": 0.16
+    },
+    {
+      "id": 37,
+      "nome": "Ponto de Coleta Gonçalves",
+      "localizacao": {
+        "latitude": -78.707864,
+        "longitude": -25.57964
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "baterias",
+        "orgânicos",
+        "eletrônicos",
+        "papel",
+        "plástico"
+      ],
+      "horario_funcionamento": "Seg-Sáb 9h às 19h",
+      "nivel_preenchimento": 0.7
+    },
+    {
+      "id": 38,
+      "nome": "Ponto de Coleta Oliveira",
+      "localizacao": {
+        "latitude": -1.3374815,
+        "longitude": 73.619916
+      },
+      "endereco": "",
+      "materiais_aceitos": [
+        "vidro",
+        "eletrônicos"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 17h",
+      "nivel_preenchimento": 0.54
+    },
+    {
+      "id": 39,
+      "nome": "Ponto de Coleta Azevedo",
+      "localizacao": {
+        "latitude": 16.5674185,
+        "longitude": 85.957205
+      },
+      "endereco": "Área Anthony Jesus, 691, Jardim Alvorada, 88728-743 Melo / CE",
+      "materiais_aceitos": [
+        "eletrônicos",
+        "metal",
+        "plástico"
+      ],
+      "horario_funcionamento": "Seg-Sex 7h às 19h",
+      "nivel_preenchimento": -0.18
+    },
+    {
+      "id": 40,
+      "nome": "",
+      "localizacao": {
+        "latitude": -86.2193035,
+        "longitude": 0.985722
+      },
+      "endereco": "Estrada de da Luz, 966, Leticia, 61227530 Nogueira de Goiás / PB",
+      "materiais_aceitos": [
+        "plástico",
+        "orgânicos",
+        "eletrônicos",
+        "pilhas",
+        "vidro"
+      ],
+      "horario_funcionamento": "Seg-Sáb 9h às 20h",
+      "nivel_preenchimento": 0.44
+    },
+    {
+      "id": 41,
+      "nome": "Ponto de Coleta Melo da Mata",
+      "localizacao": {
+        "latitude": 66.353117,
+        "longitude": 127.561186
+      },
+      "endereco": "Núcleo de Duarte, 2, Piratininga, 26841-459 das Neves / BA",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 7h às 17h",
+      "nivel_preenchimento": 0.23
+    },
+    {
+      "id": 42,
+      "nome": "Ponto de Coleta da Costa de Ramos",
+      "localizacao": {
+        "latitude": 72.601811,
+        "longitude": 20.588309
+      },
+      "endereco": "Recanto de Teixeira, 23, São Gabriel, 85191-088 Teixeira / BA",
+      "materiais_aceitos": [
+        "eletrônicos",
+        "papel"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 20h",
+      "nivel_preenchimento": -0.82
+    },
+    {
+      "id": 43,
+      "nome": "Ponto de Coleta Martins",
+      "localizacao": {
+        "latitude": 49.6781185,
+        "longitude": 57.211342
+      },
+      "endereco": "Trecho Rodrigues, 9, Parque São José, 72867908 Lima de Aragão / MG",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 8h às 17h",
+      "nivel_preenchimento": 0.86
+    },
+    {
+      "id": 44,
+      "nome": "",
+      "localizacao": {
+        "latitude": 65.239248,
+        "longitude": -140.792571
+      },
+      "endereco": "Vila Cauê Viana, 2, João Pinheiro, 04622-656 Nascimento de Nascimento / AP",
+      "materiais_aceitos": [
+        "orgânicos",
+        "eletrônicos",
+        "óleo de cozinha",
+        "baterias",
+        "roupas"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 17h",
+      "nivel_preenchimento": 0.31
+    },
+    {
+      "id": 45,
+      "nome": "",
+      "localizacao": {
+        "latitude": -58.154651,
+        "longitude": -84.182703
+      },
+      "endereco": "Fazenda Almeida, 5, Piraja, 86337-524 Correia / AL",
+      "materiais_aceitos": [
+        "óleo de cozinha",
+        "roupas"
+      ],
+      "horario_funcionamento": "Seg-Sex 9h às 20h",
+      "nivel_preenchimento": 0.41
+    },
+    {
+      "id": "ID_46",
+      "nome": "Ponto de Coleta Aragão de Goiás",
+      "localizacao": {
+        "latitude": -34.6803855,
+        "longitude": -143.87347
+      },
+      "endereco": "Praia Barros, 70, Ouro Minas, 83028439 Martins de Goiás / MA",
+      "materiais_aceitos": [
+        "baterias",
+        "orgânicos",
+        "roupas",
+        "óleo de cozinha"
+      ],
+      "horario_funcionamento": "Seg-Sex 7h às 19h",
+      "nivel_preenchimento": 0.55
+    },
+    {
+      "id": 47,
+      "nome": "",
+      "localizacao": {
+        "latitude": -30.6642905,
+        "longitude": 42.028445
+      },
+      "endereco": "Sítio da Luz, 88, Bairro Das Indústrias Ii, 68566-246 Teixeira / PR",
+      "materiais_aceitos": [
+        "orgânicos",
+        "plástico",
+        "papel",
+        "pilhas",
+        "eletrônicos"
+      ],
+      "horario_funcionamento": "Seg-Sex 9h às 18h",
+      "nivel_preenchimento": 0.31
+    },
+    {
+      "id": 48,
+      "nome": "Ponto de Coleta das Neves",
+      "localizacao": {
+        "latitude": -9.271684,
+        "longitude": -102.501748
+      },
+      "endereco": "Pátio de Peixoto, Saudade, 63435175 Teixeira / SC",
+      "materiais_aceitos": [
+        "plástico",
+        "vidro",
+        "baterias",
+        "roupas",
+        "papel"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 19h",
+      "nivel_preenchimento": 0.51
+    },
+    {
+      "id": 49,
+      "nome": "",
+      "localizacao": {
+        "latitude": -17.935392,
+        "longitude": 22.490515
+      },
+      "endereco": "Estrada da Rosa, 63, Jardinópolis, 33173936 Vieira / MT",
+      "materiais_aceitos": [
+        "orgânicos",
+        "baterias",
+        "vidro",
+        "roupas",
+        "eletrônicos"
+      ],
+      "horario_funcionamento": "Seg-Sex 8h às 18h",
+      "nivel_preenchimento": 0.92
+    },
+    {
+      "id": 50,
+      "nome": "Ponto de Coleta Nascimento dos Dourados",
+      "localizacao": {
+        "latitude": 53.250615,
+        "longitude": 168.279619
+      },
+      "endereco": "Núcleo Eduarda Sales, 81, Vila Santa Rosa, 35560-932 Ferreira / PI",
+      "materiais_aceitos": [],
+      "horario_funcionamento": "Seg-Sáb 9h às 19h",
+      "nivel_preenchimento": 0.82
+    }
+  ]
+}

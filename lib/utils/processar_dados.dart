@@ -1,6 +1,6 @@
 import '../models/collection_point.dart';
 
-void processarPontosDeColeta(List<CollectionPoint> pontos) {
+void processarDados(List<CollectionPoint> pontos) {
   // 1. Listar todos os pontos ordenados por ID
   print('=== Todos os pontos de coleta ===');
 

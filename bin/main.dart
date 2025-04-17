@@ -20,5 +20,5 @@ void main() {
     }
   }
 
-  processarPontosDeColeta(listaParaProcessar);
+  processarDados(listaParaProcessar);
 }

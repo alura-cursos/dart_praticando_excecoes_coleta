@@ -10,8 +10,14 @@ void main() {
   List<CollectionPoint> listaParaProcessar = [];
 
   for (Map<String, dynamic> mapa in listaDadosCorrompidos) {
-    CollectionPoint collectionPoint = CollectionPoint.fromMap(mapa);
-    listaParaProcessar.add(collectionPoint);
+    try {
+      CollectionPoint collectionPoint = CollectionPoint.fromMap(mapa);
+      listaParaProcessar.add(collectionPoint);
+    } on Error catch (e) {
+      print(e);
+    } on Exception catch (e) {
+      print(e);
+    }
   }
 
   processarPontosDeColeta(listaParaProcessar);
